@@ -1,0 +1,32 @@
+{
+  "files": {
+    "main.css": "/static/css/main.c74d4d7e.css",
+    "main.js": "/static/js/main.4d75a45e.js",
+    "static/js/453.e6486f32.chunk.js": "/static/js/453.e6486f32.chunk.js",
+    "static/media/img1.png": "/static/media/img1.c6402c231cada4e306ec.png",
+    "static/media/img2.png": "/static/media/img2.416b3d4d6cfec0a74cdd.png",
+    "static/media/instagramColor.png": "/static/media/instagramColor.915ea4081e832d508576.png",
+    "static/media/img3.png": "/static/media/img3.ee267d295027d73ef8ae.png",
+    "static/media/faba.jpg": "/static/media/faba.5d7cf34b0f57121da986.jpg",
+    "static/media/emsa.jpg": "/static/media/emsa.8ef4973e692956cd79f1.jpg",
+    "static/media/instrumentalbioquimico.jpg": "/static/media/instrumentalbioquimico.da11e3c7db2fbd25d0ea.jpg",
+    "static/media/ab.jpg": "/static/media/ab.989d46146e4114255472.jpg",
+    "static/media/biomed.jpg": "/static/media/biomed.0f2988e5147830c2664b.jpg",
+    "static/media/wiener.jpg": "/static/media/wiener.217e026645f45277ef0f.jpg",
+    "static/media/aadee.jpg": "/static/media/aadee.4586d75c8e2753c84588.jpg",
+    "static/media/asinteg.jpg": "/static/media/asinteg.1cb1d4d6dd4367efc0b6.jpg",
+    "static/media/avan.jpg": "/static/media/avan.c1a86d8ed2ef9ce62f03.jpg",
+    "static/media/bernardolew.jpg": "/static/media/bernardolew.36b7c4053bf3d41e75fc.jpg",
+    "static/media/twitterColor.png": "/static/media/twitterColor.8dcad155f1008f52c24f.png",
+    "static/media/biodiagnostico.jpg": "/static/media/biodiagnostico.a6481057451c0ded973e.jpg",
+    "static/media/faba.png": "/static/media/faba.4ab568d50b9472160194.png",
+    "index.html": "/index.html",
+    "main.c74d4d7e.css.map": "/static/css/main.c74d4d7e.css.map",
+    "main.4d75a45e.js.map": "/static/js/main.4d75a45e.js.map",
+    "453.e6486f32.chunk.js.map": "/static/js/453.e6486f32.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c74d4d7e.css",
+    "static/js/main.4d75a45e.js"
+  ]
+}
