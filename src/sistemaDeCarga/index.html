@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Carga</title>
+
+
+    <!-- Firebase App (el primer script es siempre necesario) -->
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-app-compat.js"></script>
+
+    <!-- Firebase Analytics (añade este script si deseas utilizar Analytics) -->
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-database-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-storage-compat.js"></script>
+    <script src="https://www.gstatic.com/firebasejs/9.1.2/firebase-analytics-compat.js"></script>
+
+</head>
+<body>
+    <h1>Formulario de Carga</h1>
+    <form id="formulario">
+        <label for="numeroRevista">Número de Revista:</label>
+        <input type="number" id="numeroRevista" name="numeroRevista" required><br><br>
+
+        <label for="mes">Mes:</label>
+        <input type="text" id="mes" name="mes" required><br><br>
+
+        <label for="anio">Año:</label>
+        <input type="number" id="anio" name="anio" required><br><br>
+
+        <label for="seccion">Sección:</label>
+        <select id="seccion" name="seccion" required>
+            <option value="Institucional">Institucional</option>
+            <option value="Interés General">Interés General</option>
+            <option value="Actualidad Científica">Actualidad Científica</option>
+            <option value="ABCL">ABCL</option>
+            <option value="SACT">SACT</option>
+            <option value="FBA">FBA</option>
+        </select><br><br>
+
+        <label for="volanta">Volanta:</label>
+        <input type="text" id="volanta" name="volanta" required><br><br>
+
+        <label for="titulo">Título:</label>
+        <input type="text" id="titulo" name="titulo" required><br><br>
+
+        <label for="bajada">Bajada:</label>
+        <textarea id="bajada" name="bajada" required></textarea><br><br>
+
+        <label for="cuerpoNota">Cuerpo de Nota:</label>
+        <textarea id="cuerpoNota" name="cuerpoNota" required></textarea><br><br>
+
+        <label for="imagen">Imagen:</label>
+        <input type="file" id="imagen" name="imagen" accept="image/*" required><br><br>
+
+        <label for="epigrafeImg">Epígrafe imagen:</label>
+        <textarea id="epigrafeImg" name="epigrafeImg" required></textarea><br><br>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <script src="cargadorFormulario.js"></script>
+</body>
+</html>
